@@ -1,0 +1,168 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+/*html quiz    */
+
+.main-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*RESPONSIVE MAIN DIV    */
+@media (max-width: 667px) {
+    .main-div {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+#quiz-div{
+
+    /* border: 1px solid black; */
+    width: 50%;
+    text-align: center;
+    background-color: azure;
+    box-shadow: 1px 1px 14px;
+    border-radius: 90px 0px 91px 0px;
+
+}
+
+@media (max-width: 667px) {
+    #quiz-div {
+      width: 90%;
+    }
+  }
+
+/*RESPONSIVE MAIN DIV    */
+@media (min-width : 375px) and (max-width : 414px){
+    .quiz-div{
+     width: 100%;
+     background-color: aqua;
+    }
+ 
+ }
+
+#quiz-name{
+
+    font-size: xx-large;
+}
+
+#question{
+
+    font-size: x-large;
+}
+
+label{
+    font-size: larger;
+}
+
+/* next question button */
+#btn{
+    width: 90px;
+    padding: 7px;
+    border-radius: 23px;
+    background-color: #cae8e1;
+    box-shadow: 1px 1px 8px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 667px) {
+    #btn {
+      width: 120px;
+    }
+  }
+
+
+/* css quiz */
+
+.main-div2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#quiz-div2{
+
+    /* border: 1px solid black; */
+    width: 50%;
+    text-align: center;
+    background-color: azure;
+    box-shadow: 1px 1px 14px;
+    border-radius: 90px 0px 91px 0px;};
+
+
+    @media (max-width: 667px) {
+        #quiz-div2 {
+          width: 90%;
+        }
+      }
+
+    
+#question2{
+
+    font-size: x-large;
+};
+
+#btn2{
+    width: 90px;
+    padding: 7px;
+    border-radius: 23px;
+    background-color: #cae8e1;
+    box-shadow: 1px 1px 8px;
+    border: none;
+    cursor: pointer;
+};
+
+
+
+/* Javascript quiz */
+
+.main-div3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#quiz-div3{
+
+    /* border: 1px solid black; */
+    width: 50%;
+    text-align: center;
+    background-color: azure;
+    box-shadow: 1px 1px 14px;
+    border-radius: 90px 0px 91px 0px;
+    margin-left: 23%;
+}
+
+@media (max-width: 667px) {
+    #quiz-div3 {
+      width: 90%;
+      margin-left: 0;
+    }
+  }
+    
+#question3{
+
+    font-size: x-large;
+}
+
+#btn3{
+    width: 90px;
+    padding: 7px;
+    border-radius: 23px;
+    background-color: #cae8e1;
+    box-shadow: 1px 1px 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.logo{
+    margin-left: 44%;
+}
+

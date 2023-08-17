@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    
+    <h1>Quiz app</h1>
+    
+    <input id="html-btn" type="button" value="HTML" onclick="htmlQuiz1()">
+    
+    <button id="css-btn" onclick="cssQuizStart()">CSS</button>
+
+    <button id="Javascript-btn" onclick="javascriptQuizStart()">Javascript</button>
+
+    <!-- this container is for html quiz -->
+<div class="main-div">
+    <div id="quiz-div">
+        <h2 id="quiz-name">Html Quiz</h2>
+    <p  id="question"></p>
+    
+    <label for="" >A
+    <input onclick="enableBtn()" type="radio" name="answer" value="A">
+    <span class="options" id="A"></span>
+    </label><br><br>
+    
+    <label for="">B
+    <input onclick="enableBtn()" type="radio" name="answer" value="B">
+    <span class="options" id="B"></span>
+    </label>
+    <br><br>
+
+    <label for="">C
+    <input onclick="enableBtn()" type="radio" name="answer" value="C">
+    <span class="options" id="C"></span>
+    </label>
+    <br><br>
+
+    <label for="">D
+    <input onclick="enableBtn()" type="radio" name="answer" value="D">
+    <span class="options" id="D"></span>
+    </label>
+<br><br>
+
+<button disabled onclick="nextQuestion()" id="btn">NEXT</button>
+
+
+<div id="result-div1">
+    
+    <p id="result-html"></p>
+
+</div>
+
+   </div>
+</div>
+
+
+
+
+
+<!-- this container is for css quiz -->
+<div class="main-div2">
+    <div id="quiz-div2">
+        <h2 id="quiz-name">Css Quiz</h2>
+    <p  id="question2"></p>
+    
+    <label for="" >A
+    <input onclick="enableBtn2()" type="radio" name="answer2" value="A">
+    <span class="options2" id="A2"></span>
+    </label><br><br>
+    
+    <label for="">B
+    <input onclick="enableBtn2()" type="radio" name="answer2" value="B">
+    <span class="options2" id="B2"></span>
+    </label>
+    <br><br>
+
+    <label for="">C
+    <input onclick="enableBtn2()" type="radio" name="answer2" value="C">
+    <span class="options2" id="C2"></span>
+    </label>
+    <br><br>
+
+    <label for="">D
+    <input onclick="enableBtn2()" type="radio" name="answer2" value="D">
+    <span class="options2" id="D2"></span>
+    </label>
+<br><br>
+
+<button onclick="nextQuestionCss()" id="btn2">NEXT</button>
+
+
+<div id="result-div2">
+    
+    <p id="result-css"></p>
+
+</div>
+
+   </div>
+</div>
+
+
+
+
+<!-- this container is for javascript quiz -->
+<div class="main-div3">
+    <div id="quiz-div3">
+        <h2 id="quiz-name">Javascript Quiz</h2>
+    <p  id="question3"></p>
+    
+    <label for="" >A
+    <input onclick="enableBtn3()" type="radio" name="answer3" value="A">
+    <span class="options3" id="A3"></span>
+    </label><br><br>
+    
+    <label for="">B
+    <input onclick="enableBtn3()" type="radio" name="answer3" value="B">
+    <span class="options3" id="B3"></span>
+    </label>
+    <br><br>
+
+    <label for="">C
+    <input onclick="enableBtn3()" type="radio" name="answer3" value="C">
+    <span class="options3" id="C3"></span>
+    </label>
+    <br><br>
+
+    <label for="">D
+    <input onclick="enableBtn3()" type="radio" name="answer3" value="D">
+    <span class="options3" id="D3"></span>
+    </label>
+<br><br>
+
+<button onclick="nextQuestionJavascript()" id="btn3">NEXT</button>
+
+<div id="result-div3">
+    
+    <p id="result-javascript"></p>
+
+</div>
+
+   </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="quiz.js"></script>
+</body>
+</html
